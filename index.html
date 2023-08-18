@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scalene Triangle</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="scalene-triangle">
+      <h2 class="title">Area of Scalene Triangle</h2>
+      <p>Enter three sides of the triangle</p>
+      <div class="input-field">
+        <input type="number" id="side-a" placeholder="a..." min="1">
+        <input type="number" id="side-b" placeholder="b..." min="1">
+        <input type="number" id="side-c" placeholder="c..." min="1">
+      </div>
+      <button class="calc-btn">Calculate</button>
+      <div class="output-field">
+        <div class="output-sides">
+            <span class="side-a">a</span>
+            <span class="side-b">b</span>
+            <span class="side-c">c</span>
+        </div>
+        <h2 class="result"></h2>
+        <div class="formula">
+            <div class="formula-title">
+                Formula
+            </div>
+            <div class="formula-text">
+                We know that, area of scalene triangle is square root of s(s-a)(s-b)(s-c). Here 's' is the half of the perimeter and a, b, c are three sides of scalene triangle.
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
